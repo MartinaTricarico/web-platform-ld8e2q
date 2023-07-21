@@ -25,15 +25,46 @@ img {
 }
 
 .box {
-  width: 300px;
-  margin-bottom: 20px;
+  width: 50%;
+  margin: 2em;
+  display: flex;
   text-align: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
 }
 
 .box img {
   margin-bottom: 10px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 5px solid green;
 }
 
-.box p {
-  font-size: 18px;
+.textos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.titulobox {
+  margin: 10px;
+  font-size: 40px;
+  color: green;
+  font-weight: 700;
+}
+
+.subtitulobox {
+  margin: 10px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.descripcion {
+  margin: 10px;
+  font-size: 25px;
+  text-align: left;
 }

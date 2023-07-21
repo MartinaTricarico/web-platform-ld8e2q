@@ -5,13 +5,14 @@ body {
   width: 100%;
   height: 100%;
   margin: 0%;
-  flex-direction: column;
 }
 
 .container-index {
   background: #74ab58;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
   width: 100%;
-  height: 100%;
 }
 
 .title {
@@ -59,4 +60,21 @@ button {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+footer {
+  /* background: slateblue; */
+  display: flex;
+  margin-top: auto;
+}
+
+footer img {
+  object-position: 0em 5em;
+  object-fit: cover;
+  width: 50%;
+}
+
+.top {
+  display: flex;
+  width: 10%;
 }
